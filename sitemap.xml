@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://jacoballen.ca/</loc></url>
-  <url><loc>https://jacoballen.ca/about</loc></url>
-  <url><loc>https://jacoballen.ca/matos</loc></url>
-  <url><loc>https://jacoballen.ca/mentions-legales</loc></url>
-  <url><loc>https://jacoballen.ca/en</loc></url>
-  <url><loc>https://jacoballen.ca/en/about</loc></url>
-  <url><loc>https://jacoballen.ca/en/matos</loc></url>
-  <url><loc>https://jacoballen.ca/en/mentions-legales</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.jacoballen.ca/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/en</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/about</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/about"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/en/about</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/about"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/matos</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/matos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/matos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/matos"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/en/matos</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/matos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/matos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/matos"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/mentions-legales</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/mentions-legales"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/en/mentions-legales</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/mentions-legales"/>
+  </url>
 </urlset>

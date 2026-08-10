@@ -11,7 +11,7 @@ Site statique (HTML + CSS pur, zéro dépendance) prêt à déployer sur Vercel.
 - `404.html` — la page d’erreur personnalisée
 - `style.css` — les couleurs, composants et adaptations mobiles
 - `effects.js` — les étoiles et le halo pour les appareils avec souris
-- `i18n.js` — toutes les traductions anglaises, les métadonnées et la navigation bilingue
+- `en/` — les versions anglaises statiques des quatre pages publiques
 - `likes.js` et `api/likes.js` — le bouton J’aime et son endpoint Vercel sécurisé
 - `supabase/schema.sql` — la table Supabase à créer une seule fois
 - `sitemap.xml` et `robots.txt` — les fichiers d’indexation
@@ -48,14 +48,14 @@ Tu n'as pas besoin de toucher au CSS pour ajouter/enlever des cases — le style
 
 ## Gérer le français et l’anglais
 
-Le français reste écrit directement dans les fichiers HTML. Les traductions anglaises sont regroupées dans
-le fichier `i18n.js`, dans l’objet `translations`. Pour modifier un texte anglais, retrouve simplement sa
-version française à gauche, puis change la traduction à droite.
+Le français est écrit dans les fichiers HTML à la racine. Les versions anglaises sont de vrais fichiers HTML
+dans `en/` et sont accessibles sous `/en`, `/en/about`, `/en/matos` et `/en/mentions-legales`. Cette structure
+permet aux moteurs de recherche de recevoir immédiatement la bonne langue, le bon titre et une balise
+canonique auto-référente, sans attendre l’exécution de JavaScript.
 
-Les pages anglaises utilisent les mêmes fichiers et sont accessibles sous `/en`, `/en/about`, `/en/matos`
-et `/en/mentions-legales`. Le sélecteur `FR` / `EN` conserve la page actuelle lorsqu’on change de langue.
-Lorsqu’une nouvelle page bilingue est ajoutée, ajoute son chemin dans `pagePaths`, sa traduction dans
-`translations`, ses métadonnées dans `metadata`, puis sa route anglaise dans `vercel.json`.
+Quand tu modifies une page française, reporte le changement dans son équivalent anglais. Pour ajouter une
+page bilingue, crée les deux fichiers, ajoute des liens `canonical` et `hreflang` réciproques, puis ajoute les
+deux URL au `sitemap.xml`.
 
 ## Gérer les liens courts (jacoballen.ca/youtube → ta vraie URL)
 
