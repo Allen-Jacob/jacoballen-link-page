@@ -13,8 +13,6 @@ Site statique (HTML + CSS pur, zéro dépendance) prêt à déployer sur Vercel.
 - `style.css` — les couleurs, composants et adaptations mobiles
 - `effects.js` — les étoiles et le halo pour les appareils avec souris
 - `en/` — les versions anglaises statiques des pages publiques
-- `likes.js` et `api/likes.js` — le bouton J’aime et son endpoint Vercel sécurisé
-- `supabase/schema.sql` — la table Supabase à créer une seule fois
 - `sitemap.xml` et `robots.txt` — les fichiers d’indexation
 - `vercel.json` — les redirections d'URL courtes (ex. `jacoballen.ca/youtube`)
 - `README.md` — ce fichier
@@ -93,14 +91,6 @@ Pour qu'ils fonctionnent, il faut juste les **activer côté dashboard** (aucun 
 4. Redéploie une fois si les onglets viennent d'être activés.
 
 Les données apparaissent après quelques visites réelles sur le site.
-
-## Activer les J’aime avec Supabase
-
-1. Crée un projet gratuit sur Supabase.
-2. Ouvre **SQL Editor**, colle le contenu de `supabase/schema.sql`, puis clique sur **Run**.
-3. Redéploie le site.
-
-L’API utilise une clé Supabase publiable avec deux fonctions SQL à privilèges limités. La table reste protégée par RLS et ne peut pas être lue ou modifiée directement. Chaque navigateur reçoit un identifiant aléatoire conservé dans son stockage local afin d’éviter de compter plusieurs fois le même clic.
 
 ## Personnaliser l'avatar
 

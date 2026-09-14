@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <base href="/">
-  <title>Jacob Allen - Informatique, réseaux et plein air</title>
-  <meta name="description" content="Le portfolio de Jacob Allen : informatique, réseaux, auto-hébergement, sport et projets personnels au Québec.">
+  <title>Jacob Allen — Développeur Swift, réseaux et homelab au Québec</title>
+  <meta name="description" content="Portfolio de Jacob Allen, étudiant en informatique au Québec : applications Swift pour macOS et iOS, réseaux, Linux, homelab, plein air et projets personnels.">
+  <meta name="author" content="Jacob Allen">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.jacoballen.ca/">
   <link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/">
   <link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en">
@@ -39,7 +41,8 @@
             "https://www.instagram.com/jacob.allen2009/",
             "https://www.strava.com/athletes/141873421"
           ],
-          "knowsAbout": ["Informatique", "Réseaux", "Linux", "Docker", "Auto-hébergement"]
+          "jobTitle": "Étudiant en techniques de l’informatique et développeur Swift",
+          "knowsAbout": ["Swift", "SwiftUI", "AppKit", "macOS", "iOS", "Réseaux informatiques", "Linux", "Docker", "Auto-hébergement"]
         },
         {
           "@type": "WebSite",
@@ -167,6 +170,23 @@
       </a>
     </section>
 
+    <section class="home-featured-projects" aria-labelledby="home-projects-title">
+      <div class="compact-heading">
+        <div><p class="kicker">Projets sélectionnés / 07</p><h2 id="home-projects-title">Mes applications</h2></div>
+        <a href="/projects">Voir tous les projets →</a>
+      </div>
+      <div class="home-project-grid">
+        <a class="home-project-card project-ethernet reveal" href="/projets/Ethernet-Menu-Bar">
+          <div class="home-project-icon"><img src="assets/projects/ethernet-menu-bar-icon.png" alt="" width="84" height="84"></div>
+          <div><span class="project-status available">Disponible</span><p class="kicker">Utilitaire macOS · Swift</p><h3>Ethernet Menu Bar</h3><p>État, vitesse du lien et activité réseau dans la barre des menus.</p><span class="card-link">Découvrir l’application →</span></div>
+        </a>
+        <a class="home-project-card project-sure reveal" href="/projets/Sure-Mobile">
+          <div class="home-project-icon"><img src="assets/projects/sure-mobile-icon.png" alt="" width="84" height="84"></div>
+          <div><span class="project-status active">En développement</span><p class="kicker">Application iOS · SwiftUI</p><h3>Sure Mobile</h3><p>Une expérience iPhone native pour consulter ses finances personnelles.</p><span class="card-link">Découvrir l’application →</span></div>
+        </a>
+      </div>
+    </section>
+
     <!-- <section class="projects" id="projets" aria-labelledby="projects-title">
       <div class="section-heading">
         <div><p class="kicker">Projets sélectionnés / 06</p><h2 id="projects-title">Des idées devenues concrètes.</h2></div>
@@ -226,19 +246,6 @@
       </div>
     </section>
 
-    <section class="like-panel reveal" aria-labelledby="like-title">
-      <div>
-        <p class="kicker">Un petit signe / 08</p>
-        <h2 id="like-title">Vous aimez le site&nbsp;?</h2>
-        <p class="like-note">Un clic suffit — aucun compte nécessaire.</p>
-      </div>
-      <button class="like-button" type="button" data-like-button aria-pressed="false" disabled>
-        <span class="like-heart" aria-hidden="true">♥</span>
-        <span data-like-label>J’aime</span>
-        <strong data-like-count aria-label="Nombre de mentions J’aime">—</strong>
-      </button>
-      <p class="like-status" data-like-status role="status" aria-live="polite"></p>
-    </section>
   </main>
 
   <footer class="footer shell"><p>© 2026 Jacob Allen</p><p>Conçu avec curiosité au Québec <span aria-hidden="true">🍁</span></p><div class="footer-links"><a href="/mentions-legales">Mentions légales</a><a href="mailto:contact@jacoballen.ca">Contact</a></div></footer>
@@ -251,7 +258,6 @@
       });
     }
   </script>
-  <script defer src="likes.js"></script>
   <script defer src="effects.js"></script>
 </body>
 </html>
