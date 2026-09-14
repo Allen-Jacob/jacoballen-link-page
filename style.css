@@ -2819,6 +2819,25 @@ a:focus-visible {
 .screenshot-card figcaption { display:flex; flex-direction:column; gap:3px; padding:17px 20px; border-top:1px solid var(--line); }
 .screenshot-card figcaption strong { font:800 16px Manrope,sans-serif; }
 .screenshot-card figcaption span { color:var(--muted); font-size:13px; }
+.ethernet-product-page .product-hero { min-height:460px; gap:34px; padding:38px 44px; }
+.ethernet-product-page .product-demo { min-height:320px; }
+.ethernet-product-page .product-demo::before { width:280px; height:280px; }
+.ethernet-product-page .product-hero h1 { font-size:clamp(46px,6vw,76px); }
+.ethernet-product-page .product-section { padding-top:52px; }
+.ethernet-product-page .product-section-heading { margin-bottom:18px; }
+.ethernet-product-page .product-section-heading h2 { font-size:clamp(30px,4vw,46px); }
+.ethernet-product-page .screenshot-grid { grid-template-columns:.85fr 1.15fr; }
+.ethernet-product-page .screenshot-menu,
+.ethernet-product-page .screenshot-settings { min-height:0; }
+.ethernet-product-page .screenshot-menu > img,
+.ethernet-product-page .screenshot-settings > img { min-height:0; aspect-ratio:16/9; }
+.ethernet-product-page .screenshot-settings { grid-row:auto; }
+.ethernet-product-page .compact-features .feature-grid { grid-template-columns:repeat(2,1fr); }
+.ethernet-product-page .feature-card { min-height:165px; padding:22px; }
+.ethernet-product-page .feature-card h3 { margin:24px 0 7px; }
+.ethernet-product-page .product-install { margin-top:52px; }
+.ethernet-product-page .install-callout,
+.ethernet-product-page .install-steps { padding-block:25px; }
 .product-install { display:grid; grid-template-columns:.8fr 1.2fr; gap:14px; margin-top:82px; }
 .install-callout, .install-steps { padding:32px; border:1px solid var(--line); border-radius:var(--radius); background:#191917; }
 .install-callout { background:linear-gradient(145deg,#ff633e,#b92e18); }
@@ -2829,6 +2848,7 @@ a:focus-visible {
 .install-steps li::marker { color:var(--orange); font-weight:800; }
 @media(max-width:800px){.product-hero{grid-template-columns:1fr;padding:30px}.product-demo{min-height:320px}.feature-grid,.screenshot-grid{grid-template-columns:1fr}.screenshot-settings{grid-row:auto}.screenshot-settings>img{min-height:0}.product-install{grid-template-columns:1fr}}
 @media(max-width:520px){.screenshot-status{grid-template-columns:1fr}.status-shot-wrap{min-height:145px}.screenshot-menu{min-height:0}.screenshot-menu>img{min-height:0}}
+@media(max-width:800px){.ethernet-product-page .product-hero{padding:26px}.ethernet-product-page .screenshot-grid,.ethernet-product-page .compact-features .feature-grid{grid-template-columns:1fr}}
 @media (max-width: 420px) {
   .app-icon {
     width: 66px;
