@@ -29,6 +29,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/about"/>
   </url>
   <url>
+    <loc>https://www.jacoballen.ca/projects</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/projects"/>
+  </url>
+  <url>
+    <loc>https://www.jacoballen.ca/en/projects</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/projects"/>
+  </url>
+  <url>
     <loc>https://www.jacoballen.ca/matos</loc>
     <lastmod>2026-08-10</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/matos"/>

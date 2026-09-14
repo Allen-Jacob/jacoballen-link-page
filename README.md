@@ -6,12 +6,13 @@ Site statique (HTML + CSS pur, zéro dépendance) prêt à déployer sur Vercel.
 
 - `index.html` — la page d’accueil et les liens essentiels
 - `about.html` — la présentation personnelle
+- `projects.html` — les applications et projets (Sure Mobile, Ethernet Menu Bar et projets à venir)
 - `matos.html` — le matériel, regroupé par catégories
 - `mentions-legales.html` — les informations légales, l’hébergement et la confidentialité
 - `404.html` — la page d’erreur personnalisée
 - `style.css` — les couleurs, composants et adaptations mobiles
 - `effects.js` — les étoiles et le halo pour les appareils avec souris
-- `en/` — les versions anglaises statiques des quatre pages publiques
+- `en/` — les versions anglaises statiques des pages publiques
 - `likes.js` et `api/likes.js` — le bouton J’aime et son endpoint Vercel sécurisé
 - `supabase/schema.sql` — la table Supabase à créer une seule fois
 - `sitemap.xml` et `robots.txt` — les fichiers d’indexation
