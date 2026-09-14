@@ -2648,6 +2648,36 @@ a:focus-visible {
   background: rgba(42, 133, 255, 0.15);
   font-size: 15px !important;
 }
+
+.download-help {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--muted);
+}
+
+.download-help summary {
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.download-help ol {
+  margin: 0.85rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.download-help li + li {
+  margin-top: 0.45rem;
+}
+
+.download-help a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
 .project-action:hover {
   filter: brightness(1.08);
   transform: translateY(-1px);
