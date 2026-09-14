@@ -2650,18 +2650,28 @@ a:focus-visible {
 }
 
 .download-help {
+  position: relative;
   margin-top: 1rem;
-  padding: 0.9rem 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 1.1rem 3rem 1.1rem 1.1rem;
+  border: 1px solid rgba(42, 133, 255, 0.38);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.045);
+  background: rgba(42, 133, 255, 0.08);
   color: var(--muted);
+  animation: download-help-in 0.28s ease both;
 }
 
-.download-help summary {
+.download-help[hidden] {
+  display: none;
+}
+
+.download-help h3 {
+  margin: 0;
   color: var(--text);
-  font-weight: 700;
-  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-help p {
+  margin: 0.45rem 0 0;
 }
 
 .download-help ol {
@@ -2677,6 +2687,51 @@ a:focus-visible {
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 0.18em;
+}
+
+.download-help-close {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.download-help-close:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.download-help-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  background: var(--orange);
+  color: #fff !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+@keyframes download-help-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .project-action:hover {
   filter: brightness(1.08);

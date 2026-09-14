@@ -205,6 +205,7 @@
             </ul>
             <a
               class="project-action"
+              data-download-button
               href="https://github.com/Allen-Jacob/Ethernet-Menu-Bar/releases/latest/download/Ethernet-Menu-Bar.zip"
               target="_blank"
               rel="noopener noreferrer"
@@ -220,8 +221,10 @@
             >
               Voir le code source ↗
             </a>
-            <details class="download-help">
-              <summary>Erreur à l’ouverture après le téléchargement&nbsp;?</summary>
+            <aside class="download-help" data-download-help hidden tabindex="-1" aria-labelledby="download-help-title-fr">
+              <button class="download-help-close" type="button" data-download-help-close aria-label="Fermer">×</button>
+              <h3 id="download-help-title-fr">Installation téléchargée — besoin d’aide&nbsp;?</h3>
+              <p>Si macOS refuse d’ouvrir l’application, suivez ces étapes&nbsp;:</p>
               <ol>
                 <li>
                   Téléchargez la dernière version depuis la
@@ -237,7 +240,11 @@
                 </li>
                 <li>Facultatif&nbsp;: cliquez sur l’icône dans la barre des menus, puis sur Réglages pour personnaliser l’application.</li>
               </ol>
-            </details>
+              <a class="download-help-action" href="x-help-action://openPrefPane?bundleId=com.apple.settings.PrivacySecurity.extension">
+                Ouvrir Confidentialité et sécurité
+                <span aria-hidden="true">↗</span>
+              </a>
+            </aside>
           </div>
         </article>
       </section>
@@ -277,5 +284,6 @@
       </div>
     </footer>
     <script defer src="effects.js"></script>
+    <script defer src="download-help.js"></script>
   </body>
 </html>
