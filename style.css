@@ -2745,6 +2745,8 @@ a:focus-visible {
 
 /* Accueil compact — contenu priorisé pour un écran desktop */
 .home-featured-projects { margin-top: 54px; }
+.home-curated .setup-card { grid-column:1 / span 6; }
+.home-curated .blog-card { grid-column:7 / span 6; }
 .home-dashboard { display: grid; gap: 14px; }
 .home-intro { min-height: 278px; display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(230px, .55fr); overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(135deg, #20201d, #171715); box-shadow: var(--shadow); }
 .home-intro-copy { position: relative; z-index: 2; padding: clamp(28px, 4vw, 48px); }
@@ -2830,7 +2832,7 @@ a:focus-visible {
 .ethernet-product-page .screenshot-menu,
 .ethernet-product-page .screenshot-settings { min-height:0; }
 .ethernet-product-page .screenshot-menu > img,
-.ethernet-product-page .screenshot-settings > img { min-height:0; aspect-ratio:16/9; }
+.ethernet-product-page .screenshot-settings > img { width:100%; height:auto; min-height:0; aspect-ratio:auto; object-fit:contain; background:#0d0d0c; }
 .ethernet-product-page .screenshot-settings { grid-row:auto; }
 .ethernet-product-page .compact-features .feature-grid { grid-template-columns:repeat(2,1fr); }
 .ethernet-product-page .feature-card { min-height:165px; padding:22px; }
@@ -2848,7 +2850,7 @@ a:focus-visible {
 .install-steps li::marker { color:var(--orange); font-weight:800; }
 @media(max-width:800px){.product-hero{grid-template-columns:1fr;padding:30px}.product-demo{min-height:320px}.feature-grid,.screenshot-grid{grid-template-columns:1fr}.screenshot-settings{grid-row:auto}.screenshot-settings>img{min-height:0}.product-install{grid-template-columns:1fr}}
 @media(max-width:520px){.screenshot-status{grid-template-columns:1fr}.status-shot-wrap{min-height:145px}.screenshot-menu{min-height:0}.screenshot-menu>img{min-height:0}}
-@media(max-width:800px){.ethernet-product-page .product-hero{padding:26px}.ethernet-product-page .screenshot-grid,.ethernet-product-page .compact-features .feature-grid{grid-template-columns:1fr}}
+@media(max-width:800px){.home-curated .setup-card,.home-curated .blog-card{grid-column:auto}.ethernet-product-page .product-hero{padding:26px}.ethernet-product-page .screenshot-grid,.ethernet-product-page .compact-features .feature-grid{grid-template-columns:1fr}}
 @media (max-width: 420px) {
   .app-icon {
     width: 66px;
