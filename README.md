@@ -45,6 +45,17 @@ Dans `index.html`, chaque case est un bloc du genre :
 
 Tu n'as pas besoin de toucher au CSS pour ajouter/enlever des cases — le style s'applique automatiquement.
 
+### Modifier la page `/links`
+
+Les liens destinés aux bios de réseaux sociaux sont dans `links/index.html` (français) et
+`en/links/index.html` (anglais). Les deux listes sont identifiées par des commentaires :
+
+- `LIENS PRINCIPAUX` : copie, déplace ou supprime un bloc `<a class="profile-link">`;
+- `PARRAINAGES` : modifie les cartes Starlink et RackNerd de la même manière;
+- les vraies adresses des raccourcis `/instagram`, `/starlink`, etc. restent centralisées dans `vercel.json`.
+
+Quand tu changes un titre ou un sous-titre, reporte simplement le même changement traduit dans la page anglaise.
+
 ## Gérer le français et l’anglais
 
 Le français est écrit dans les fichiers HTML à la racine. Les versions anglaises sont de vrais fichiers HTML
