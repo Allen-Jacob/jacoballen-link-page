@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <base href="/">
-  <title>Jacob Allen - Informatique, réseaux et plein air</title>
-  <meta name="description" content="Le portfolio de Jacob Allen : informatique, réseaux, auto-hébergement, sport et projets personnels au Québec.">
+  <title>Jacob Allen — Développeur Swift, réseaux et homelab au Québec</title>
+  <meta name="description" content="Portfolio de Jacob Allen, étudiant en informatique au Québec : applications Swift pour macOS et iOS, réseaux, Linux, homelab, plein air et projets personnels.">
+  <meta name="author" content="Jacob Allen">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.jacoballen.ca/">
   <link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/">
   <link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en">
@@ -39,7 +41,8 @@
             "https://www.instagram.com/jacob.allen2009/",
             "https://www.strava.com/athletes/141873421"
           ],
-          "knowsAbout": ["Informatique", "Réseaux", "Linux", "Docker", "Auto-hébergement"]
+          "jobTitle": "Étudiant en techniques de l’informatique et développeur Swift",
+          "knowsAbout": ["Swift", "SwiftUI", "AppKit", "macOS", "iOS", "Réseaux informatiques", "Linux", "Docker", "Auto-hébergement"]
         },
         {
           "@type": "WebSite",
@@ -57,7 +60,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff5b35'/><text x='50' y='68' text-anchor='middle' font-size='52' font-family='Arial' font-weight='700' fill='white'>J</text></svg>" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home-curated">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
   <div class="ambient" aria-hidden="true"><span></span><span></span></div>
 
@@ -136,20 +139,9 @@
         <span class="round-arrow" aria-hidden="true">→</span>
       </a>
 
-      <article class="tile quebec-card reveal">
-        <div>
-          <p class="kicker">Base / 04</p>
-          <h2>Québec, Canada</h2>
-          <p>Connecté au réseau.<br>Souvent dehors.</p>
-        </div>
-        <button class="map-mark" type="button" data-compass aria-label="Faire tourner la boussole du Québec">
-          <span>46.8° N</span><i class="compass-needle" aria-hidden="true"></i><small>Glisser</small>
-        </button>
-      </article>
-
       <a class="tile setup-card reveal" href="/matos">
         <div>
-          <p class="kicker">Setup / 05</p>
+          <p class="kicker">Matériel / 04</p>
           <h2>Les outils derrière mes projets.</h2>
           <span class="text-link">Explorer mon matériel <b aria-hidden="true">→</b></span>
         </div>
@@ -158,13 +150,30 @@
 
       <a class="tile blog-card reveal" href="https://blog.jacoballen.ca" aria-label="Visiter le blog de Jacob">
         <div>
-          <p class="kicker">Blog / 06</p>
+          <p class="kicker">Blog / 05</p>
           <h2>Ma vie,<br><span>l’informatique &amp; le reste.</span></h2>
           <p>J’y écris sur ma vie, l’informatique et tout ce qui pique ma curiosité.</p>
           <span class="blog-link">Lire le blog <b aria-hidden="true">↗</b></span>
         </div>
         <span class="blog-mark" aria-hidden="true">B.</span>
       </a>
+    </section>
+
+    <section class="home-featured-projects" aria-labelledby="home-projects-title">
+      <div class="compact-heading">
+        <div><p class="kicker">Projets sélectionnés / 06</p><h2 id="home-projects-title">Mes applications</h2></div>
+        <a href="/projects">Voir tous les projets →</a>
+      </div>
+      <div class="home-project-grid">
+        <a class="home-project-card project-ethernet reveal" href="/projets/Ethernet-Menu-Bar">
+          <div class="home-project-icon"><img src="assets/projects/ethernet-menu-bar-icon.png" alt="" width="84" height="84"></div>
+          <div><span class="project-status available">Disponible</span><p class="kicker">Utilitaire macOS · Swift</p><h3>Ethernet Menu Bar</h3><p>État, vitesse du lien et activité réseau dans la barre des menus.</p><span class="card-link">Découvrir l’application →</span></div>
+        </a>
+        <a class="home-project-card project-sure reveal" href="/projets/Sure-Mobile">
+          <div class="home-project-icon"><img src="assets/projects/sure-mobile-icon.png" alt="" width="84" height="84"></div>
+          <div><span class="project-status active">En développement</span><p class="kicker">Application iOS · SwiftUI</p><h3>Sure Mobile</h3><p>Une expérience iPhone native pour consulter ses finances personnelles.</p><span class="card-link">Découvrir l’application →</span></div>
+        </a>
+      </div>
     </section>
 
     <!-- <section class="projects" id="projets" aria-labelledby="projects-title">
@@ -218,27 +227,6 @@
       </div> -->
     </section>
 
-    <section class="referrals reveal" aria-labelledby="referrals-title">
-      <div><p class="kicker">Bons plans / 07</p><h2 id="referrals-title">Mes liens de parrainage</h2><p class="referral-note">Je peux recevoir un avantage si vous passez par ces liens, sans coût supplémentaire pour vous.</p></div>
-      <div class="referral-links">
-        <a href="/starlink" rel="sponsored nofollow"><span class="referral-icon" aria-hidden="true">⌁</span><span><b>Starlink</b><small>Un mois offert · lien de parrainage</small></span><b aria-hidden="true">↗</b></a>
-        <a href="/racknerd" rel="sponsored nofollow"><span class="referral-icon" aria-hidden="true">▤</span><span><b>RackNerd</b><small>VPS · lien de parrainage</small></span><b aria-hidden="true">↗</b></a>
-      </div>
-    </section>
-
-    <section class="like-panel reveal" aria-labelledby="like-title">
-      <div>
-        <p class="kicker">Un petit signe / 08</p>
-        <h2 id="like-title">Vous aimez le site&nbsp;?</h2>
-        <p class="like-note">Un clic suffit — aucun compte nécessaire.</p>
-      </div>
-      <button class="like-button" type="button" data-like-button aria-pressed="false" disabled>
-        <span class="like-heart" aria-hidden="true">♥</span>
-        <span data-like-label>J’aime</span>
-        <strong data-like-count aria-label="Nombre de mentions J’aime">—</strong>
-      </button>
-      <p class="like-status" data-like-status role="status" aria-live="polite"></p>
-    </section>
   </main>
 
   <footer class="footer shell"><p>© 2026 Jacob Allen</p><p>Conçu avec curiosité au Québec <span aria-hidden="true">🍁</span></p><div class="footer-links"><a href="/mentions-legales">Mentions légales</a><a href="mailto:contact@jacoballen.ca">Contact</a></div></footer>
@@ -251,7 +239,6 @@
       });
     }
   </script>
-  <script defer src="likes.js"></script>
   <script defer src="effects.js"></script>
 </body>
 </html>
