@@ -2,67 +2,147 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <base href="/">
+
+  <!-- SEO principal -->
   <title>Jacob Allen — Développeur Swift, réseaux et homelab au Québec</title>
-  <meta name="description" content="Portfolio de Jacob Allen, étudiant en informatique au Québec : applications Swift pour macOS et iOS, réseaux, Linux, homelab, plein air et projets personnels.">
+
+  <meta
+    name="description"
+    content="Portfolio de Jacob Allen, étudiant en informatique au Québec : applications Swift pour macOS et iOS, réseaux, Linux, homelab, plein air et projets personnels."
+  >
+
   <meta name="author" content="Jacob Allen">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <link rel="canonical" href="https://www.jacoballen.ca/">
-  <link rel="alternate" hreflang="fr" href="https://www.jacoballen.ca/">
-  <link rel="alternate" hreflang="en" href="https://www.jacoballen.ca/en">
-  <link rel="alternate" hreflang="x-default" href="https://www.jacoballen.ca/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- URL principale -->
+  <link rel="canonical" href="https://jacoballen.ca/">
+
+  <!-- Versions linguistiques -->
+  <link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/">
+  <link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en">
+  <link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Jacob Allen">
   <meta property="og:locale" content="fr_CA">
   <meta property="og:locale:alternate" content="en_CA">
-  <meta property="og:title" content="Jacob Allen - Informatique, réseaux et plein air">
-  <meta property="og:description" content="Je construis, j’héberge et j’apprends - depuis le Québec.">
-  <meta property="og:url" content="https://www.jacoballen.ca/">
-  <meta property="og:image" content="https://www.jacoballen.ca/og.png">
+
+  <meta
+    property="og:title"
+    content="Jacob Allen — Développeur Swift, réseaux et homelab"
+  >
+
+  <meta
+    property="og:description"
+    content="Je construis, j’héberge et j’apprends depuis le Québec : Swift, réseaux, Linux, homelab et projets personnels."
+  >
+
+  <meta property="og:url" content="https://jacoballen.ca/">
+  <meta property="og:image" content="https://jacoballen.ca/og.png">
   <meta property="og:image:alt" content="Portfolio de Jacob Allen">
   <meta property="og:image:width" content="1731">
   <meta property="og:image:height" content="909">
+
+  <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.jacoballen.ca/og.png">
+
+  <meta
+    name="twitter:title"
+    content="Jacob Allen — Développeur Swift, réseaux et homelab"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Je construis, j’héberge et j’apprends depuis le Québec : Swift, réseaux, Linux, homelab et projets personnels."
+  >
+
+  <meta name="twitter:image" content="https://jacoballen.ca/og.png">
+
+  <!-- Données structurées Google -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://www.jacoballen.ca/#person",
-          "name": "Jacob Allen",
-          "url": "https://www.jacoballen.ca/",
-          "image": "https://www.jacoballen.ca/assets/portrait/jacob-1200.jpg",
-          "sameAs": [
-            "https://github.com/Allen-Jacob",
-            "https://x.com/Bridled01",
-            "https://www.instagram.com/jacob.allen2009/",
-            "https://www.strava.com/athletes/141873421"
-          ],
-          "jobTitle": "Étudiant en techniques de l’informatique et développeur Swift",
-          "knowsAbout": ["Swift", "SwiftUI", "AppKit", "macOS", "iOS", "Réseaux informatiques", "Linux", "Docker", "Auto-hébergement"]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.jacoballen.ca/#website",
-          "url": "https://www.jacoballen.ca/",
-          "name": "Jacob Allen",
-          "inLanguage": ["fr-CA", "en-CA"],
-          "publisher": { "@id": "https://www.jacoballen.ca/#person" }
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://jacoballen.ca/#person",
+        "name": "Jacob Allen",
+        "url": "https://jacoballen.ca/",
+        "image": "https://jacoballen.ca/assets/portrait/jacob-1200.jpg",
+        "sameAs": [
+          "https://github.com/Allen-Jacob",
+          "https://x.com/Bridled01",
+          "https://www.instagram.com/jacob.allen2009/",
+          "https://www.strava.com/athletes/141873421"
+        ],
+        "jobTitle": "Étudiant en techniques de l’informatique et développeur Swift",
+        "knowsAbout": [
+          "Swift",
+          "SwiftUI",
+          "AppKit",
+          "macOS",
+          "iOS",
+          "Réseaux informatiques",
+          "Linux",
+          "Docker",
+          "Auto-hébergement"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://jacoballen.ca/#website",
+        "url": "https://jacoballen.ca/",
+        "name": "Jacob Allen",
+        "alternateName": "JacobAllen.ca",
+        "inLanguage": [
+          "fr-CA",
+          "en-CA"
+        ],
+        "publisher": {
+          "@id": "https://jacoballen.ca/#person"
         }
-      ]
-    }
+      }
+    ]
+  }
   </script>
-  <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff5b35'/><text x='50' y='68' text-anchor='middle' font-size='52' font-family='Arial' font-weight='700' fill='white'>J</text></svg>" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Polices -->
+  <link
+    rel="preload"
+    href="/assets/fonts/dm-sans-latin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+
+  <link
+    rel="preload"
+    href="/assets/fonts/manrope-latin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body class="home-curated">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
-  <div class="ambient" aria-hidden="true"><span></span><span></span></div>
+
+  <div class="ambient" aria-hidden="true">
+    <span></span>
+    <span></span>
+  </div>
 
   <header class="site-header shell">
     <a href="/" class="brand" aria-label="Jacob Allen - Accueil"><span class="brand-mark">J</span><span>JACOB ALLEN</span></a>
@@ -72,7 +152,7 @@
       <a href="/about">À propos</a>
       <a href="/matos">Matériel</a>
     </nav>
-    <a class="language-switch" href="/en" hreflang="en" aria-label="View this site in English">EN</a>
+    <a class="language-switch" href="/en" hreflang="en-CA" aria-label="View this site in English">EN</a>
     <a class="header-contact" href="mailto:contact@jacoballen.ca"><span class="contact-label">Me contacter</span><span class="contact-short">Contact</span> <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -88,9 +168,9 @@
           </ul>
         </div>
         <picture class="portrait">
-          <source srcset="assets/portrait/jacob-800.avif 800w, assets/portrait/jacob-1200.avif 1200w" sizes="(max-width: 700px) 100vw, 460px" type="image/avif">
-          <source srcset="assets/portrait/jacob-800.webp 800w, assets/portrait/jacob-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 460px" type="image/webp">
-          <img src="assets/portrait/jacob-800.jpg" srcset="assets/portrait/jacob-800.jpg 800w, assets/portrait/jacob-1200.jpg 1200w" sizes="(max-width: 700px) 100vw, 460px" alt="Jacob Allen devant un paysage de montagne et de mer" width="1200" height="1200" fetchpriority="high">
+          <source srcset="/assets/portrait/jacob-800.avif 800w, /assets/portrait/jacob-1200.avif 1200w" sizes="(max-width: 700px) 100vw, 460px" type="image/avif">
+          <source srcset="/assets/portrait/jacob-800.webp 800w, /assets/portrait/jacob-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 460px" type="image/webp">
+          <img src="/assets/portrait/jacob-800.jpg" srcset="/assets/portrait/jacob-800.jpg 800w, /assets/portrait/jacob-1200.jpg 1200w" sizes="(max-width: 700px) 100vw, 460px" alt="Jacob Allen devant un paysage de montagne et de mer" width="1200" height="1200" fetchpriority="high">
         </picture>
         <span class="id-code" aria-hidden="true">JA / QC / 2026</span>
       </article>
@@ -107,27 +187,27 @@
       </article>
 
       <a class="tile link-tile github-card reveal" href="/github" aria-label="Voir le GitHub de Jacob">
-        <span class="tile-icon"><img src="assets/icons/github.svg" alt="" width="22" height="22"></span>
+        <span class="tile-icon"><img src="/assets/icons/github.svg" alt="" width="22" height="22"></span>
         <span><b>GitHub</b><small>Projets &amp; dépôts</small></span>
         <span class="arrow" aria-hidden="true">↗</span>
         <span class="code-lines" aria-hidden="true">git push<br>docker compose up<br>ssh jacob@homelab</span>
       </a>
 
       <a class="tile link-tile strava-card reveal" href="/strava" aria-label="Voir les activités Strava de Jacob">
-        <span class="tile-icon"><img src="assets/icons/strava.svg" alt="" width="22" height="22"></span>
+        <span class="tile-icon"><img src="/assets/icons/strava.svg" alt="" width="22" height="22"></span>
         <span><b>Strava</b><small>Profil - connexion parfois requise</small></span>
         <span class="arrow" aria-hidden="true">↗</span>
         <span class="elevation" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
       </a>
 
       <a class="tile link-tile social-card instagram-card reveal" href="/instagram" aria-label="Voir l’Instagram de Jacob">
-        <span class="tile-icon"><img src="assets/icons/instagram.svg" alt="" width="24" height="24"></span>
+        <span class="tile-icon"><img src="/assets/icons/instagram.svg" alt="" width="24" height="24"></span>
         <span><b>Instagram</b><small>Mon réseau social préféré</small></span>
         <span class="arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="tile link-tile social-card x-card reveal" href="/x" aria-label="Voir le profil X de Jacob">
-        <span class="tile-icon"><img src="assets/icons/x.svg" alt="" width="22" height="22"></span>
+        <span class="tile-icon"><img src="/assets/icons/x.svg" alt="" width="22" height="22"></span>
         <span><b>Jacob Allen sur X</b><small>Veille &amp; idées</small></span>
         <span class="arrow" aria-hidden="true">↗</span>
       </a>
@@ -166,11 +246,11 @@
       </div>
       <div class="home-project-grid">
         <a class="home-project-card project-ethernet reveal" href="/projets/Ethernet-Menu-Bar">
-          <div class="home-project-icon"><img src="assets/projects/ethernet-menu-bar-icon.png" alt="" width="84" height="84"></div>
+          <div class="home-project-icon"><img src="/assets/projects/ethernet-menu-bar-icon.png" alt="" width="84" height="84"></div>
           <div><span class="project-status available">Disponible</span><p class="kicker">Utilitaire macOS · Swift</p><h3>Ethernet Menu Bar</h3><p>État, vitesse du lien et activité réseau dans la barre des menus.</p><span class="card-link">Découvrir l’application →</span></div>
         </a>
         <a class="home-project-card project-sure reveal" href="/projets/Sure-Mobile">
-          <div class="home-project-icon"><img src="assets/projects/sure-mobile-icon.png" alt="" width="84" height="84"></div>
+          <div class="home-project-icon"><img src="/assets/projects/sure-mobile-icon.png" alt="" width="84" height="84"></div>
           <div><span class="project-status active">En développement</span><p class="kicker">Application iOS · SwiftUI</p><h3>Sure Mobile</h3><p>Une expérience iPhone native pour consulter ses finances personnelles.</p><span class="card-link">Découvrir l’application →</span></div>
         </a>
       </div>
@@ -184,9 +264,9 @@
       <div class="project-grid">
         <article class="project-card reveal">
           <picture class="project-shot">
-            <source srcset="assets/projects/site.avif" type="image/avif">
-            <source srcset="assets/projects/site.webp" type="image/webp">
-            <img src="assets/projects/site.png" alt="Aperçu du portfolio jacoballen.ca" width="1280" height="720" loading="lazy">
+            <source srcset="/assets/projects/site.avif" type="image/avif">
+            <source srcset="/assets/projects/site.webp" type="image/webp">
+            <img src="/assets/projects/site.png" alt="Aperçu du portfolio jacoballen.ca" width="1280" height="720" loading="lazy">
           </picture>
           <div class="project-copy">
             <div class="project-title-row"><div><p class="kicker">Portfolio personnel</p><h3>jacoballen.ca</h3></div><span class="project-status">En ligne</span></div>
@@ -194,13 +274,13 @@
             <p><strong>Résultat.</strong> Un portfolio statique responsive avec SEO, aperçu social et mesure de performance.</p>
             <ul class="project-tech" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul>
             <a class="project-link" href="https://github.com/Allen-Jacob/personal-website" target="_blank" rel="noopener noreferrer">Voir le dépôt GitHub <span aria-hidden="true">↗</span></a>
-          </div> -->
-        <!-- </article>
+          </div>
+        </article>
         <article class="project-card reveal">
           <picture class="project-shot">
-            <source srcset="assets/projects/blog-builder.avif" type="image/avif">
-            <source srcset="assets/projects/blog-builder.webp" type="image/webp">
-            <img src="assets/projects/blog-builder.png" alt="Interface du générateur d’articles de blog" width="1280" height="720" loading="lazy">
+            <source srcset="/assets/projects/blog-builder.avif" type="image/avif">
+            <source srcset="/assets/projects/blog-builder.webp" type="image/webp">
+            <img src="/assets/projects/blog-builder.png" alt="Interface du générateur d’articles de blog" width="1280" height="720" loading="lazy">
           </picture>
           <div class="project-copy">
             <div class="project-title-row"><div><p class="kicker">Outil de publication</p><h3>Blog Builder</h3></div><span class="project-status">Public</span></div>
@@ -212,9 +292,9 @@
         </article>
         <article class="project-card reveal">
           <picture class="project-shot">
-            <source srcset="assets/projects/arcade-games.avif" type="image/avif">
-            <source srcset="assets/projects/arcade-games.webp" type="image/webp">
-            <img src="assets/projects/arcade-games.png" alt="Accueil de la plateforme Arcade Games" width="1280" height="720" loading="lazy">
+            <source srcset="/assets/projects/arcade-games.avif" type="image/avif">
+            <source srcset="/assets/projects/arcade-games.webp" type="image/webp">
+            <img src="/assets/projects/arcade-games.png" alt="Accueil de la plateforme Arcade Games" width="1280" height="720" loading="lazy">
           </picture>
           <div class="project-copy">
             <div class="project-title-row"><div><p class="kicker">Fork étendu</p><h3>Arcade Games</h3></div><span class="project-status">4 jeux</span></div>
@@ -224,8 +304,8 @@
             <a class="project-link" href="https://github.com/Allen-Jacob/Games" target="_blank" rel="noopener noreferrer">Voir le dépôt GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </article>
-      </div> -->
-    </section>
+      </div>
+    </section> -->
 
   </main>
 
@@ -239,6 +319,6 @@
       });
     }
   </script>
-  <script defer src="effects.js"></script>
+  <script defer src="/effects.js"></script>
 </body>
 </html>
