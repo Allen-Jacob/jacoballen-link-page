@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jacoballen.ca/sitemap.xml
+Sitemap: https://jacoballen.ca/sitemap.xml
