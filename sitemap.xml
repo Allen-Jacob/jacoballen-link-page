@@ -2,89 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jacoballen.ca/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/en</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/about</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/about"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/about"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/en/about</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/about"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/about"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/projects</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/projects"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/projects"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/projects"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/en/projects</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/projects"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/projects"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/projects"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/matos</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/matos"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/matos"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/matos"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/en/matos</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/matos"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/matos"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/matos"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/mentions-legales</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/mentions-legales"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/en/mentions-legales</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://jacoballen.ca/en/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jacoballen.ca/mentions-legales"/>
   </url>
   <url>
     <loc>https://jacoballen.ca/projets/Ethernet-Menu-Bar</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jacoballen.ca/projets/Sure-Mobile</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jacoballen.ca/links</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/links"/>
@@ -93,7 +93,7 @@
   </url>
   <url>
     <loc>https://jacoballen.ca/en/links</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://jacoballen.ca/links"/>

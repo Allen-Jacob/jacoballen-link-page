@@ -17,6 +17,12 @@
     { "source": "/email", "destination": "mailto:contact@jacoballen.ca",        "permanent": false },
     { "source": "/starlink", "destination": "https://starlink.com/residential?referral=RC-DF-12693608-83528-7&app_source=share",                 "permanent": false },
     { "source": "/racknerd", "destination": "https://my.racknerd.com/aff.php?aff=15552",                 "permanent": false },
-    { "source": "/link", "destination": "/links",                 "permanent": false }
+    { "source": "/link", "destination": "/links",                 "permanent": false },
+    { "source": "/app", "destination": "/projets",                 "permanent": false },
+    { "source": "/apps", "destination": "/projets",                 "permanent": false },
+    { "source": "/daily", "destination": "https://apps.apple.com/app/id15552",                 "permanent": false },
+    { "source": "/daily-app", "destination": "https://daily.jacoballen.ca",                 "permanent": false },
+    { "source": "/sure", "destination": "/projets/Sure-Mobile",                 "permanent": false },
+    { "source": "/appstore", "destination": "https://apps.apple.com/app/id15552",                 "permanent": false }
   ]
 }
